@@ -5,6 +5,7 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 header{
@@ -89,7 +90,7 @@ header nav a:hover{
 }
 
 main{
-    background-image: linear-gradient(rgb(30,30,30), rgb(45,45,45));
+    background-image: linear-gradient(rgb(30,30,30), rgb(50,50,50));
 }
 
 .sobre_mim{
@@ -224,4 +225,22 @@ main{
 
 .challengesegundo{
     margin: 30px 0 0 0;
+}
+
+main footer{
+    margin-top: 40px;
+    color: rgb(170,120,240);
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(30,30,30);
+    border-top: 1px solid rgb(170,120,240);
+    border-bottom: 1px solid rgb(170,120,240);    
+}
+
+.contato{
+    color: rgb(170,120,240);
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin: 50px 0 0 20px;
 }
