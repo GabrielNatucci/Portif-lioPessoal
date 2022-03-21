@@ -1,5 +1,7 @@
 *{
+    padding: 0;
     margin: 0;
+    font-family: "montserrat",sans-serif;
     /* transition:0.4s; */
 }
 
@@ -18,7 +20,6 @@ header{
     text-align: center;
     vertical-align: center;
     border-bottom: 2px solid rgb(170,120,240);
-  
 }
 
 header nav{
@@ -94,8 +95,9 @@ main{
 }
 
 .sobre_mim{
+    text-shadow: 1px 1px 5px rgb(0,0,0,0.6);
     color:rgb(170,120,240);
-    padding:25px;
+    padding:35px;
     font-size: 18px;
     line-height: 25px;
     text-align: justify;
@@ -103,7 +105,7 @@ main{
 
 .sobre_mim h3{
     font-size: 22px;
-    margin:  0 0 10px 0;
+    margin:  0 0 20px 0;
     text-align: center;
 }
 
@@ -135,6 +137,7 @@ main{
 }
 
 .formacoes h3{
+    text-shadow: 1px 1px 5px rgb(0,0,0,0.6);
     font-size: 22px;
     text-align: center;
 }
@@ -153,14 +156,17 @@ main{
 }
 
 .formacao p{
+    text-shadow: 1px 1px 5px rgb(0,0,0,0.6);
     font-size: 18px;
 }
 
 .formacao{
+    text-shadow: 1px 1px 5px rgb(0,0,0,0.6);
     margin: 20px 20px 0 20px;
 }
 
 .experiencia{
+    text-shadow: 1px 1px 5px rgb(0,0,0,0.6);
     color: rgb(170,120,240);
     text-align: center;
 }
@@ -178,6 +184,7 @@ main{
 }
 
 .codificador img{
+    box-shadow: 1px 1px 5px rgb(0,0,0,0.8);
     user-select: none;
     height: 300px;
     border-radius: 10px;
@@ -197,6 +204,7 @@ main{
     color: white;
     text-shadow: 1px 1px 2px black;
     border: 1px solid rgb(170,120,240);
+    box-shadow: 1px 1px 5px rgb(0,0,0,0.6);
 }
 
 #repositorio{
@@ -227,6 +235,79 @@ main{
     margin: 30px 0 0 0;
 }
 
+.contato{
+    text-shadow: 1px 1px 5px rgb(0,0,0,0.6);
+    color: rgb(170,120,240);
+    margin: 50px 0 0 20px;
+    text-align: center;
+}
+
+.contato h2{
+    font-size: 25px;
+    margin: 0 0 20px 0;
+}
+
+.contato {
+    margin: 40px auto    
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+}
+  
+.formulario{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+  
+.formulario input{
+    border: 1px solid rgb(170,120,240);
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    background: rgb(30,30,30);
+    border-radius: 10px;
+    padding: 20px 40px;
+    color: #ddd;
+    box-shadow: 1px 1px 5px rgb(0,0,0,0.6);
+}
+
+#formulario-btn{
+    background-color: rgba(170,120,240,0.7);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    border: 1px solid rgb(170,120,240);
+    box-shadow: 1px 1px 5px rgb(0,0,0,0.6);
+    width: auto;
+}
+
+#formulario-btn:hover{
+    background: rgba(170,120,240,0.5);
+    transition: 0.2s;
+}
+
+.formulario textarea{
+    border: 1px solid rgb(170,120,240);
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    background: rgb(30,30,30);
+    border-radius: 10px;
+    padding: 20px 40px;
+    color: #ddd;
+    resize: none;
+    height: 120px;
+    box-shadow: 1px 1px 5px rgb(0,0,0,0.6);
+}
+  
 main footer{
     margin-top: 40px;
     color: rgb(170,120,240);
@@ -236,11 +317,4 @@ main footer{
     background-color: rgb(30,30,30);
     border-top: 1px solid rgb(170,120,240);
     border-bottom: 1px solid rgb(170,120,240);    
-}
-
-.contato{
-    color: rgb(170,120,240);
-    /* justify-content: center; */
-    /* text-align: center; */
-    margin: 50px 0 0 20px;
 }
