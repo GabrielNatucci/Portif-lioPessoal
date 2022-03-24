@@ -13,7 +13,7 @@
 		<nav>
 			<a href = "#top">Home</a>
 			<a href="#sobre__mim">Sobre mim</a>
-			<a>Contato</a>
+			<a href ="#Contato">Contato</a>
 		</nav>
 	</header>
 
@@ -29,10 +29,10 @@
 				a procura do meu primeiro emprego.</p>
 				<nav>
 					<ul class = "redes">
-						<li class = "rede"><a>Github</a></li>
-						<li class = "rede"><a>Linkedin</a></li>
-						<li class = "rede"><a>Instagram</a></li>
-						<li class = "rede"><a>Currículo</a></li>
+						<li class = "rede"><a href = "https://github.com/GabrielNatucci" target="_blank">Github</a></li>
+						<li class = "rede"><a href = "https://www.linkedin.com/in/gabriel-natucci-russo-pimentel-de-toledo-3742b4219/" target="_blank">Linkedin</a></li>
+						<li class = "rede"><a href = "https://www.instagram.com/gabriel.natucci/" target = "_blank">Instagram</a></li>
+						<li class = "rede"><a href = "Documentos/CV - Gabriel Toledo.pdf" target = "_blank">Currículo</a></li>
 						<a name = "sobre__mim"></a>
 					</ul> <!-- redes -->
 				</nav>
@@ -123,7 +123,6 @@
 					<a href = "" target="_blank">
 					<button>Teste o Codificador!</button></a>
 				</div> <!-- div codificador -->
-				
 			</div> <!-- codificador -->
 	
 			<h4 class = "challengesegundo">Segundo Challenge Oracle:</h4>
@@ -141,12 +140,18 @@
 		</section> <!-- experiencia -->
 
 		<section class = "contato">
+			<a name = "Contato"></a>	
 			<h2>Contato:</h2>
 			<form class="formulario">
-				<input type="text" placeholder="Nome">
-				<input type="email" placeholder="Email">
-				<textarea placeholder="Sua mensagem"></textarea>
-				<input type="submit" id="formulario-btn" value="Enviar mensagem">
+				<input type="text" placeholder="Nome e sobrenome" id = "Nome" maxlength = "25">
+				<input type="email" placeholder="Email" id = "Email" maxlength="50">
+				<textarea placeholder="Mensagem" id ="mensagem"></textarea>
+				<p id = "erro_nome" class = "erro">Você digitou um nome inválido </p>
+				<p id = "erro_nome2" class = "erro">O campo nome é obrigatório </p>
+				<p id = "erro_email" class = "erro">Você digitou um email inválido </p>
+				<p id = "erro_email2" class = "erro">O campo email é obrigatório </p>
+				<p id = "erro_msg" class = "erro">O campo Mensagem é obrigatório </p>
+				<button type="submit" id="formulario-btn">Enviar Mensagem</button>
 			</form>
 		</section> <!-- contato -->
 
@@ -156,6 +161,6 @@
 		</footer>
 	</main>
 
-	
+	<script src = "JS/script.js"></script>
 </body>
 </html>
